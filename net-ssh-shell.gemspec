@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.summary       = "A simple library to aid with stateful shell interactions"
   s.description   = "A simple library to aid with stateful shell interactions"
 
-  s.required_rubygems_version = ">= 1.3.6"
+  s.required_rubygems_version = ">= 2.6.4"
   s.rubyforge_project         = "net-ssh-shell"
 
-  s.add_dependency "net-ssh", "~> 2.1.0"
+  s.add_dependency "net-ssh", "~> 3.2.0"
 
   s.add_development_dependency "rake"
 
